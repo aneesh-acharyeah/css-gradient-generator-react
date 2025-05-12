@@ -28,7 +28,7 @@ A responsive React application for creating beautiful CSS gradients with an intu
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aneesh-acharyeah/css-gradient-generator.git
+   git clone https://github.com/aneesh-acharyeah/css-gradient-generator-react.git
    ```
 2. Install dependencies:
    ```bash
