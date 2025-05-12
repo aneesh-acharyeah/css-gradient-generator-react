@@ -1,0 +1,82 @@
+/* styles/ColorStop.css */
+.color-stop {
+  background: rgba(255,255,255,0.05);
+  padding: 1.25rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.color-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.remove-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.remove-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.color-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.color-swatch {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.color-input {
+  width: 100px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.position-slider {
+  flex-grow: 1;
+}
+
+.position-value {
+  width: 40px;
+  text-align: center;
+}
+
+.color-picker-popup {
+  position: absolute;
+  z-index: 10;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin-top: 0.5rem;
+}
+
+.close-picker {
+  margin-top: 0.5rem;
+  background: #4a6bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
