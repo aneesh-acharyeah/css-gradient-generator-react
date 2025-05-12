@@ -1,6 +1,7 @@
 # 🌈 CSS Gradient Generator
 
-![Project Screenshot](./screenshot.png) <!-- Add your screenshot here -->
+![Project Screenshot](https://github.com/aneesh-acharyeah/css-gradient-generator-react/blob/main/gradient-1.png)
+![Project Screenshot](https://github.com/aneesh-acharyeah/css-gradient-generator-react/blob/main/gradient-2.png)
 
 A responsive React application for creating beautiful CSS gradients with an intuitive visual interface. Generate, customize, and export gradient code for your web projects.
 
